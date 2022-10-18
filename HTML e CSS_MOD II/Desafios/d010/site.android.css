@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+ @font-face {
+    font-family:android;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+    }
+
+
+  body{
+    background-color: rgba(97, 211, 97, 0.76);
+  }
+
+    header{
+        background-color:rgba(11, 119, 1, 0.63);
+        color:white;
+        margin: -22px -8px 0px -8px ;
+
+    }
+
+   header > h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+   } 
+
+   header > p {
+    text-align:center;
+    height: 40px; 
+   }
+
+   nav a{
+    text-decoration:none;
+    color:white;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif,;
+
+   }
+
+   main{
+    background-color: white;
+    width: 650px;
+    margin: 0px auto 0px auto;
+    padding: 9px;
+
+   }
+
+   main > h1{
+    font-family:android;
+    color:rgba(1, 94, 1, 0.877);
+   }
+
+   main > h2{
+    font-family:android;
+    color:rgba(1, 94, 1, 0.877);
+    background-color:rgba(47, 255, 82, 0.438)
+   }
+
+   main > p{
+    text-indent:2em;
+    padding:10px;
+   }
+
+   main > img{
+    width:100%;
+    height: 100%;
+
+   }
+/*
+   main > #class{
+    color: green;
+    width: 90%;
+ 
+   }
+          */
+
+   main #AprenderMais{
+    text-indent:2em;
+    padding:10px;
+   border-radius: 5%;
+    background-color:rgba(47, 255, 82, 0.438)
+
+   }
+
+   main > div  h3{
+        border-radius: 5%;
+        color:white;
+        background-color: green;
+        width: 600px;
+        padding:10px;
+
+   }
